@@ -250,17 +250,42 @@ button:active {
     background-color: #516fad;
 }
 
+.mobile-nav-btn {
+    display: none;
+}
 
 
-@media screen and (max-width: 739px) {
+
+@media screen and (max-width: 740px) {
+    .mobile-nav-btn {
+        display: block;
+    }
     body {
         margin-top: 50px; 
     }
     .main-nav {
-        position: absolute;
-        transform: translate(0, -100%);
-        transition: transform 0s;
-        
+        color: #ffffff;
+        display: block;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 70px;
+        height: 100vh;      
+        background-color: #292929bd;
+        transform: translate(0, -150%);
+        transition: transform 0.8s;
+        z-index: -1;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-item a{
+        border: 1px solid #d4d4d421; 
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
     }
     .header-wrapper {
         height: 70px;
@@ -296,68 +321,28 @@ button:active {
     .page-nav {
         margin-top: 40px; 
     }
-    
     .open.main-nav {
         transform: translate(0,0);
-        transition: transform .5s;
-        color: #ffffff;
-        display: block;
-        position: fixed;
-        width: 100%;
-        left: 0;
-        top: 70px;
-        height: 100vh;      
-        background-color: #292929bd;
-    }
-    .open .nav-list {
-        display: flex;
-        flex-direction: column;
     }
     .open .nav-item a{
-        border: 1px solid #d4d4d421; 
-        width: 100%;
-        height: 100px;
-        justify-content: center;
-        align-items: center;
         box-shadow: none;
     }
 
+
+
  
  
-
-
-
-
 
 }
-
-/* 740 - 985 */
-@media (min-width: 740px)  {
+/* 740 - 1245 */
+@media (max-width: 1245px)  {
 
     body, html {
         font-size: 14px;
-    }
-    .mobile-nav-btn {
-        display: none;
     }
     .blog-header {
         margin: 20px 0 10px 0;
         font-size: 1.75rem;
     }
+
 }
-
-
-
-@media (min-width: 1245px) {  
-    
-    .mobile-nav-btn {
-        display: none;
-    }
-    /* .blog-item {
-        margin-top: 80px;
-    } */
-}
-
-/* a:hover {
-    color: #58c93a;
-} */
