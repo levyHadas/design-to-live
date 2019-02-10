@@ -10,78 +10,68 @@
 </head>
 
 <body>
-    <div class="header-wrapper">
-        <header class="main-header flex space-between align-center wrapper">
-            <a href="/" class="logo flex link">
+    <header class="header-wrapper">
+        <div class="wrapper main-header flex space-between align-center">
+            <a href="/" class="logo flex">
                 <p>Blogin<span class="dot">.</span></p>
             </a>
-            
             <nav class="main-nav">
                 <ul class="flex nav-list clean-list ">
                     <li class="nav-item">
-                        <a href="#" class="flex align-center justify-center link">
-                            <p>Journal</p>
-                        </a>
+                        <a href="#" class="flex align-center justify-center">Journal</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="flex align-center justify-center link">
-                            <p>About</p>
-                        </a>
+                        <a href="#" class="flex align-center justify-center ">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="flex align-center justify-center link">
-                                <p>Work</p>
-                        </a>
+                        <a href="#" class="flex align-center justify-center ">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="flex align-center justify-center link">
-                                <p>Contact</p>
-                        </a>
+                        <a href="#" class="flex align-center justify-center">Contact</a>
                     </li>
                 </ul>
             </nav>
-            <button class="mobile-menu-button" onclick="toggleMenu()">☰</button>
+            <button class="mobile-nav-btn" onclick="toggleMenu()">☰</button>
+        </dev>
+    </header>
 
-        </header>
-    </div>
-
-    <main class="blog-container flex-col wrapper">
-        <div class="item flex space-between">
-            <img src="./img/001.jpg" alt="" class="item-img">
-            <div class="item-txt flex-col align-start space-between">
-                <h2 class="btn item-header">Duis aute irure dolor in henderit in voluptate.</h2>
+    <main class="wrapper blog-container flex col">
+        <div class="blog-item flex space-between">
+            <img src="./img/001.jpg" alt="" class="blog-img">
+            <div class="blog-txt flex col align-start space-between">
+                <h2 class="btn blog-header">Duis aute irure dolor in henderit in voluptate.</h2>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                     ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt
                     mollit anim id est laborum.</p><p>
                     Duis aute irure dolor in reprehenderit in voluptate
                     velit esse cillum dolore eu fugiat nulla pariatur...</p>
-                <button class="btn item-btn">Continue Reading</button>
+                <button class="btn blog-btn">Continue Reading</button>
             </div>
         </div>
-        <div class="item flex space-between">
-            <img src="./img/002.jpg" alt="" class="item-img">
-            <div class="item-txt flex-col align-start space-between">
-                <h2 class="item-header">Duis aute irure dolor in henderit in voluptate.</h2>
+        <div class="blog-item flex space-between">
+            <img src="./img/002.jpg" alt="" class="blog-img">
+            <div class="blog-txt flex col align-start space-between">
+                <h2 class="blog-header">Duis aute irure dolor in henderit in voluptate.</h2>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                     ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt
                     mollit anim id est laborum.</p><p>
                     Duis aute irure dolor in reprehenderit in voluptate
                     velit esse cillum dolore eu fugiat nulla pariatur...</p>
-                <button class="btn item-btn">Continue Reading</button>
+                <button class="btn blog-btn">Continue Reading</button>
             </div>
         </div>
-        <div class="item flex space-between">
-            <img src="./img/003.jpg" alt="" class="item-img">
-            <div class="item-txt flex-col align-start space-between">
+        <div class="blog-item flex space-between">
+            <img src="./img/003.jpg" alt="" class="blog-img">
+            <div class="blog-txt flex col align-start space-between">
                 <div>
-                    <h2 class="item-header">Duis aute irure dolor in henderit in voluptate.</h2>
+                    <h2 class="blog-header">Duis aute irure dolor in henderit in voluptate.</h2>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                         ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt
                         mollit anim id est laborum.</p><p>
                         Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum dolore eu fugiat nulla pariatur...</p>
                 </div>
-                <button class="item-btn">Continue Reading</button>
+                <button class="btn blog-btn">Continue Reading</button>
             </div>
         </div>
     </main>
@@ -91,8 +81,8 @@
             <button class="btn next-page">Next  → </button>
     </div>
 
-    <footer class="footer flex-col align-center">
-        <a href="/" class="logo link"><p>Blogin<span class="dot">.</span></p></a>
+    <footer class="footer flex col align-center">
+        <a href="/" class="logo"><p>Blogin<span class="dot">.</span></p></a>
         <p class="copy-rights">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at <span>Pixelhint.com</span></p>
         <div class="social-media flex space-evenly">
             <button><img src="./img/F.png" alt="" width="8px" height="14px"></button>
@@ -102,6 +92,7 @@
 
         </div>
     </footer>
+    <script>function toggleMenu() { document.querySelector('.main-nav').classList.toggle('open')}</script>
 </body>
 
 </html>
