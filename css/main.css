@@ -37,16 +37,10 @@ a {
     text-decoration: none;
     transition: color .3s;
 }
-
 button {
     outline:0;
     cursor: pointer;
 }
-button:active {
-    color: #58c93a;
-    outline:0;
-}
-
 
 
 /* layout */
@@ -94,7 +88,9 @@ button:active {
     border: none;
     color: #ffffff;
     font-size: 30px;
+    display: none;
 }
+
 
 
 /* Header */
@@ -108,9 +104,6 @@ button:active {
 .main-header a{
     color: #ffffff;
 }
-.main-header a:hover {
-    color: #58c93a;
-}   
 .main-nav p::first-letter {
     letter-spacing: -0.8px;
 }
@@ -122,9 +115,7 @@ button:active {
 .nav-item a:last-child {
     box-shadow: -1px 0 0 #1d1d1d, inset -1px 0 0 #1d1d1d;
 }
-.nav-item a:hover {
-    box-shadow: -1px 0 0 #1d1d1d, inset 0 -6px 0 #58c93a;
-}
+
 
 
 /* logo */
@@ -179,14 +170,6 @@ button:active {
     transition: padding .5s, color 0.3s;
     line-height:  5px;
     padding: 0 20px;
-}
-.blog-btn:hover {
-    color: #58c93a;
-    border: 2px solid #58c93a;
-    padding: 0 30px;
-}
-.blog-btn:hover::after {
-    content: "\00a0 \00a0→"
 }
 
 
@@ -246,23 +229,37 @@ button:active {
 .social-media button:not(:last-child) {
     margin-right: 30px;
 } 
-.social-media button:hover {
-    background-color: #516fad;
-}
 
-.mobile-nav-btn {
-    display: none;
-}
 
 
 
 @media screen and (max-width: 740px) {
+    /* Basic */
+    .btn:active {
+        color: #58c93a;
+        outline:0;
+    }
+    .main-header a:active {
+        color: #58c93a;
+    }
+    .blog-btn:active {
+        color: #58c93a;
+        border: 2px solid #58c93a;
+        padding: 0 30px;
+    }
+    .blog-btn:active::after {
+        content: "\00a0 \00a0→"
+    }
+    .social-media button:active {
+        background-color: #516fad;
+    }
     .mobile-nav-btn {
         display: block;
     }
     body {
         margin-top: 50px; 
     }
+
     .main-nav {
         color: #ffffff;
         display: block;
@@ -328,21 +325,40 @@ button:active {
         box-shadow: none;
     }
 
-
-
- 
- 
-
 }
+
+
 /* 740 - 1245 */
-@media (max-width: 1245px)  {
-
-    body, html {
-        font-size: 14px;
+@media (min-width: 741px)  {
+    .btn:hover {
+        color: #58c93a;
+        outline:0;
     }
-    .blog-header {
-        margin: 20px 0 10px 0;
-        font-size: 1.75rem;
+    .main-header a:hover {
+        color: #58c93a;
+    } 
+    .nav-item a:hover {
+        box-shadow: -1px 0 0 #1d1d1d, inset 0 -6px 0 #58c93a;
+    } 
+    .social-media button:hover {
+        background-color: #516fad;
+    } 
+    .blog-btn:hover {
+        color: #58c93a;
+        border: 2px solid #58c93a;
+        padding: 0 30px;
+    }
+    .blog-btn:hover::after {
+        content: "\00a0 \00a0→"
     }
 
+    @media (max-width: 1245px)  {
+        body, html {
+            font-size: 14px;
+        }
+        .blog-header {
+            margin: 20px 0 10px 0;
+            font-size: 1.75rem;
+        }
+    }
 }
