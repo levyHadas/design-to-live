@@ -3,11 +3,11 @@
   font-family: sans-serif;
   letter-spacing: 0.4px !important;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 div.form-group .control-label, .privacyPolicy {
   color: #333333;
-  font-size: 15.5px;
   letter-spacing: 0.4px !important;
   font-weight: 200 !important;
 }
@@ -16,7 +16,6 @@ div.form-group .control-label, .privacyPolicy {
   color: #808080 !important;
   font-weight: 400 !important;
   letter-spacing: 0.4px !important;
-  font-size: 15.5px;
   text-decoration: none;
   letter-spacing: 0.4px !important;
 }
