@@ -1,11 +1,24 @@
 
-div.form-group .control-label, .col-xs-9.col-sm-9 {
+body {
   font-family: sans-serif;
+  letter-spacing: 0.4px !important;
+}
+
+div.form-group .control-label, .clickableLink {
   color: #333333;
   font-weight: 200 !important;
-  letter-spacing: 0.4px !important;
   font-size: 15.5px;
   width: 170px !important;
+}
+
+.clickableLink {
+  color: #808080;
+  font-weight: 400 !important;
+  letter-spacing: 0.4px !important;
+  font-size: 15.5px;
+}
+.clickableLink:hover {
+  color: #88A8DA !important;
 }
 
 
