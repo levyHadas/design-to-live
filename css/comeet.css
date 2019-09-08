@@ -1,5 +1,5 @@
 
-div.form-group .control-label, .col-xs-9 col-sm-9 {
+div.form-group .control-label, .col-xs-9.col-sm-9 {
   font-family: sans-serif;
   color: #333333;
   font-weight: 200 !important;
