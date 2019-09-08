@@ -4,7 +4,7 @@ body {
   letter-spacing: 0.4px !important;
 }
 
-div.form-group .control-label, .clickableLink {
+div.form-group .control-label {
   color: #333333;
   font-weight: 200 !important;
   font-size: 15.5px;
