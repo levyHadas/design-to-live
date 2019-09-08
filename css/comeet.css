@@ -1,0 +1,20 @@
+.form-container {
+  font-family: sans-serif;
+  color: #333333;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+ }
+
+div.form-group .control-label {
+  width: 170px;
+}
+
+
+div.socialWidget .grid-5 > li {
+  width: 70px !important;
+}
+
+button.brandColoredButton {
+  background: #88A8DA !important;
+}
