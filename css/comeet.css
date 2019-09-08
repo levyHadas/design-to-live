@@ -2,17 +2,17 @@
 body {
   font-family: sans-serif;
   letter-spacing: 0.4px !important;
+  font-weight: 200 !important;
 }
 
 div.form-group .control-label {
   color: #333333;
-  font-weight: 200 !important;
   font-size: 15.5px;
   width: 170px !important;
 }
 
 .col-xs-9.col-sm-9 .clickableLink {
-  color: #808080;
+  color: #808080 !important;
   font-weight: 400 !important;
   letter-spacing: 0.4px !important;
   font-size: 15.5px;
@@ -21,7 +21,6 @@ div.form-group .control-label {
 .clickableLink:hover {
   color: #88A8DA !important;
 }
-
 
 div.socialWidget .grid-5 > li {
   width: 70px !important;
