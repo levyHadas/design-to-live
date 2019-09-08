@@ -1,5 +1,8 @@
 
-.jobFormDiv {
+#jobFormDiv {
+  font-family: sans-serif;
+  letter-spacing: 0.4px !important;
+  font-weight: 200 !important;
   font-family: sans-serif;
   letter-spacing: 0.4px !important;
   font-weight: 200 !important;
@@ -17,15 +20,20 @@ div.form-group .control-label {
   letter-spacing: 0.4px !important;
   font-size: 15.5px;
   text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 0.4px !important;
 }
 .clickableLink:hover {
   color: #88A8DA !important;
 }
 
 button.brandColoredButton {
-  background: #88A8DA !important;;
+  background: #88A8DA !important;
+  font-family: sans-serif;
+  letter-spacing: 0.4px !important;
+  font-weight: 200 !important;
   
 }
 button.brandColoredButton:hover {
-  background: #808080 !important;;
+  background: #808080 !important;
 }
