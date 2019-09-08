@@ -1,5 +1,5 @@
 
-form.applyForm {
+.jobFormDiv {
   font-family: sans-serif;
   letter-spacing: 0.4px !important;
   font-weight: 200 !important;
@@ -22,14 +22,10 @@ div.form-group .control-label {
   color: #88A8DA !important;
 }
 
-div.socialWidget .grid-5 > li {
-  width: 70px !important;
-}
-
 button.brandColoredButton {
-  background: #88A8DA;
-  letter-spacing: 0.5px !important;
+  background: #88A8DA !important;;
+  
 }
 button.brandColoredButton:hover {
-  background: #808080;
+  background: #808080 !important;;
 }
