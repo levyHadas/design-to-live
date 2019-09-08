@@ -2,16 +2,16 @@
 #jobFormDiv {
   font-family: sans-serif;
   letter-spacing: 0.4px !important;
-  font-weight: 200 !important;
   font-family: sans-serif;
-  letter-spacing: 0.4px !important;
-  font-weight: 200 !important;
 }
 
 div.form-group .control-label {
   color: #333333;
   font-size: 15.5px;
   width: 170px !important;
+  font-family: sans-serif;
+  letter-spacing: 0.4px !important;
+  font-weight: 200 !important;
 }
 
 .clickableLink {
