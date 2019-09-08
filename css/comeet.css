@@ -2,12 +2,12 @@
 
 div.form-group .control-label, .privacyPolicy {
   letter-spacing: 0.4px !important;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
 }
 
 .clickableLink {
   color: #808080 !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   letter-spacing: 0.4px !important;
   text-decoration: none;
   letter-spacing: 0.4px !important;
@@ -18,7 +18,7 @@ div.form-group .control-label, .privacyPolicy {
 
 button.brandColoredButton {
   letter-spacing: 0.4px !important;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
 }
 button.brandColoredButton:hover {
   background: #808080;
