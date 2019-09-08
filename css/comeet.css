@@ -7,12 +7,12 @@
  }
 
 div.form-group .control-label, .col-xs-9 col-sm-9 {
-  font-family: sans-serif;
-  color: #333333;
-  font-weight: 200;
-  letter-spacing: 0.5px;
-  font-size: 16px;
-  width: 170px;
+  font-family: sans-serif !important;
+  color: #333333 !important;
+  font-weight: 200 !important;
+  letter-spacing: 0.5px !important;
+  font-size: 16px !important;
+  width: 170px !important;
 }
 
 
@@ -21,8 +21,8 @@ div.socialWidget .grid-5 > li {
 }
 
 button.brandColoredButton {
-  background: #88A8DA;
-  font-family: sans-serif;
-  font-weight: 200;
-  letter-spacing: 0.5px;
+  background: #88A8DA !important;
+  font-family: sans-serif !important;
+  font-weight: 200 !important;
+  letter-spacing: 0.5px !important;
 }
