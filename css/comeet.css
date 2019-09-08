@@ -1,32 +1,25 @@
 
-#jobFormDiv {
-  font-family: sans-serif;
-}
 
 div.form-group .control-label, .privacyPolicy {
-  color: #333333;
   letter-spacing: 0.4px !important;
   font-weight: 200 !important;
-  font-size: 16px;
 }
 
 .clickableLink {
   color: #808080 !important;
-  font-weight: 400 !important;
+  font-weight: 700 !important;
   letter-spacing: 0.4px !important;
   text-decoration: none;
   letter-spacing: 0.4px !important;
-  font-size: 16px;
 }
 .clickableLink:hover {
   color: #88A8DA !important;
 }
 
 button.brandColoredButton {
-  background: #88A8DA !important;
   letter-spacing: 0.4px !important;
   font-weight: 200 !important;
 }
 button.brandColoredButton:hover {
-  background: #808080 !important;
+  background: #808080;
 }
