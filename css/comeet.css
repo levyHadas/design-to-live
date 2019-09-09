@@ -28,17 +28,18 @@ button.brandColoredButton:hover {
   display: none;
 }
 
-li.shareButton a {
-  margin: 0;
-  width: 60px;
-}
-
 li.shareButton {
   width: initial !important;
 }
 
-.socialWidget > ul.row {
-  background-color: red !important;
-  justify-content: flex-end;
+li.shareButton a {
+  margin: 0 !important;
+  width: 60px !important;
 }
+
+.socialWidget > ul.row {
+  justify-content: flex-end !important;
+}
+
+
   
