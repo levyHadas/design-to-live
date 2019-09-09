@@ -27,3 +27,18 @@ button.brandColoredButton:hover {
 .suggestEmployee {
   display: none;
 }
+
+li.shareButton a {
+  margin: 0;
+  width: 60px;
+}
+
+li.shareButton {
+  width: initial !important;
+}
+
+.socialWidget  > ul {
+  color: red !important;
+  justify-content: flex-end;
+}
+  
