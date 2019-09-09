@@ -30,16 +30,19 @@ button.brandColoredButton:hover {
 
 .socialWidget .shareButton.col-fifth {
   width: initial !important;
-  border-right: none;
+  
 }
 
 li.shareButton a {
   margin: 0 !important;
   width: 60px !important;
+  border-right: none;
 }
+li.shareButton a:last-of-type {
+  border-right: 1px solid #e3e6e8;
 
-.socialWidget > ul.row {
-  justify-content: flex-end !important;
+.socialWidget > ul.row.flex {
+  justify-content: flex-end;
 }
 
 
