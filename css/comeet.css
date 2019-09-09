@@ -30,7 +30,6 @@ button.brandColoredButton:hover {
 
 .socialWidget .shareButton.col-xs-3 {
   width: initial !important;
-  
 }
 
 .socialWidget .shareButton a {
@@ -40,11 +39,12 @@ button.brandColoredButton:hover {
 }
 .socialWidget .shareButton a.emailBackOnHover {
   border-right: 1px solid #e3e6e8 !important;
-  margin-right: 1px !important; 
+  
 }
 
 ul.row.flex.rowGroup {
   justify-content: flex-end !important;
+  margin-right: 10px !important; 
 }
 
 .comeet-social-share .social-icons .social-icon {
