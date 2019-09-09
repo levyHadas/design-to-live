@@ -20,7 +20,7 @@ button.brandColoredButton {
   letter-spacing: 0.4px !important;
   font-weight: 300 !important;
   margin-top: 60px;
-  background: #00366A !important;
+  background: #6896D9 !important;
 }
 button.brandColoredButton:hover {
   background: #00366A !important;
@@ -46,7 +46,7 @@ button.brandColoredButton:hover {
 ul.row.flex.rowGroup {
   justify-content: flex-end !important;
   margin-right: 10px !important; 
-  padding: 6px 0 0 0;
+  padding: 0;
 }
 
 
