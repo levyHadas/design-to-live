@@ -37,8 +37,8 @@ li.shareButton {
   width: initial !important;
 }
 
-.socialWidget  > ul {
-  color: red !important;
+.socialWidget > ul.row {
+  background-color: red !important;
   justify-content: flex-end;
 }
   
