@@ -40,8 +40,9 @@ button.brandColoredButton:hover {
 }
 .socialWidget .shareButton a:last-of-type {
   border-right: 1px solid #e3e6e8;
+}
 
-ul.row.flex.rowGroup.gridNoGutter.grid.grid-5 {
+ul.row.flex.rowGroup {
   justify-content: flex-end !important;
 }
 
