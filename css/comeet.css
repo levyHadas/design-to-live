@@ -31,11 +31,13 @@ button.brandColoredButton:hover {
 .socialWidget .shareButton a {
   margin: 0 !important;
   width: 50px !important;
-  height: 40px !important;
-  border-right: none !important;
+  height: 45px !important;
+  border: none !important;
+  border-right: 1px solid #e3e6e8 !important;
+  padding-top: 5px !important
 }
 .socialWidget .shareButton a.emailBackOnHover {
-  border-right: 1px solid #e3e6e8 !important;
+  border-right: none !important;
   
 }
 
