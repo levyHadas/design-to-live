@@ -6,14 +6,14 @@ div.form-group .control-label, .privacyPolicy {
 }
 
 .clickableLink {
-  color: #88A8DA !important;
-  font-weight: 500 !important;
+  color: #6896D9 !important;
+  font-weight: 400 !important;
   letter-spacing: 0.4px !important;
   text-decoration: none;
   letter-spacing: 0.4px !important;
 }
 .clickableLink:hover {
-  color: #10356f !important;
+  color: #00366A !important;
 }
 
 button.brandColoredButton {
@@ -21,7 +21,7 @@ button.brandColoredButton {
   font-weight: 300 !important;
 }
 button.brandColoredButton:hover {
-  background: #10356f !important;
+  background: #00366A !important;
 }
 
 .suggestEmployee {
