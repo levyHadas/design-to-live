@@ -38,7 +38,7 @@ button.brandColoredButton:hover {
   width: 60px !important;
   border-right: none !important;
 }
-li.shareButton > a:last-of-type {
+.socialWidget li.shareButton a {
   border-right: 1px solid #e3e6e8 !important;
 }
 
