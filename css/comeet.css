@@ -40,8 +40,10 @@ button.brandColoredButton:hover {
 }
 .socialWidget .shareButton a.emailBackOnHover {
   border-right: none !important;
-  
 }
+.socialWidget .shareButton a:hover {
+  background-color: red;
+  color: blue;
 
 ul.row.flex.rowGroup {
   justify-content: flex-end !important;
