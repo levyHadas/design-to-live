@@ -24,10 +24,6 @@ button.brandColoredButton:hover {
   background: #00366A !important;
 }
 
-.suggestEmployee {
-  display: none;
-}
-
 .socialWidget .shareButton.col-xs-3 {
   width: initial !important;
 }
@@ -47,9 +43,7 @@ ul.row.flex.rowGroup {
   margin-right: 10px !important; 
 }
 
-.comeet-social-share .social-icons .social-icon {
-  color: black;
-}
+
 
 
   
