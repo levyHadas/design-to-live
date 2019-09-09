@@ -39,7 +39,7 @@ button.brandColoredButton:hover {
   border-right: none !important;
 }
 .socialWidget .shareButton a:last-of-type {
-  border-right: 1px solid #e3e6e8;
+  border-right: 1px solid #e3e6e8 !important;
 }
 
 ul.row.flex.rowGroup {
