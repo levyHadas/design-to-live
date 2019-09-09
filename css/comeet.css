@@ -38,7 +38,7 @@ button.brandColoredButton:hover {
   width: 60px !important;
   border-right: none !important;
 }
-.socialWidget li.shareButton a {
+.socialWidget .shareButton a.emailBackOnHover {
   border-right: 1px solid #e3e6e8 !important;
 }
 
