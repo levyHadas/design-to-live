@@ -30,7 +30,8 @@ button.brandColoredButton:hover {
 
 .socialWidget .shareButton a {
   margin: 0 !important;
-  width: 60px !important;
+  width: 50px !important;
+  height: 40px !important;
   border-right: none !important;
 }
 .socialWidget .shareButton a.emailBackOnHover {
