@@ -28,7 +28,7 @@ button.brandColoredButton:hover {
   display: none;
 }
 
-li.shareButton {
+.socialWidget > li.shareButton {
   width: initial !important;
 }
 
