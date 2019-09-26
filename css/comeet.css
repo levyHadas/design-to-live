@@ -1,58 +1,55 @@
-
-
-div.form-group .control-label, .privacyPolicy {
-  letter-spacing: 0.4px !important;
-  font-weight: 300 !important;
+div.form-group .control-label,
+.privacyPolicy {
+	letter-spacing: 0.4px !important;
+	font-weight: 300 !important;
 }
 
 .clickableLink {
-  color: #6896D9 !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.4px !important;
-  text-decoration: none;
-  letter-spacing: 0.4px !important;
+	color: #6896D9 !important;
+	font-weight: 500 !important;
+	letter-spacing: 0.4px !important;
+	text-decoration: none;
+	letter-spacing: 0.4px !important;
 }
+
 .clickableLink:hover {
-  color: #00366A !important;
+	color: #00366A !important;
 }
 
 button.brandColoredButton {
-  letter-spacing: 0.4px !important;
-  font-weight: 300 !important;
-  margin-top: 60px;
-  background: #6896D9 !important;
+	letter-spacing: 0.4px !important;
+	font-weight: 500 !important;
+	margin-top: 60px;
+	background: #6896D9 !important;
 }
+
 button.brandColoredButton:hover {
-  background: #00366A !important;
+	background: #00366A !important;
 }
 
 .socialWidget .shareButton.col-xs-3 {
-  width: initial !important;
+	width: initial !important;
 }
 
 .socialWidget .shareButton a {
-  margin: 0 !important;
-  width: 50px !important;
-  height: 46px !important;
-  border: none !important;
-  border-right: 1px solid #e3e6e8 !important;
-  padding-top: 8px !important
+	margin: 0 !important;
+	width: 50px !important;
+	height: 46px !important;
+	border: none !important;
+	border-right: 1px solid #e3e6e8 !important;
+	padding-top: 8px !important;
 }
-.socialWidget .shareButton a.emailBackOnHover {
-  border-right: none !important;
-}
+
 .socialWidget .shareButton a:hover {
-  background-color: #00366A !important;
+	background-color: #00366A !important;
+}
+
+.socialWidget .shareButton a.emailBackOnHover {
+	border-right: none !important;
 }
 
 ul.row.flex.rowGroup {
-  justify-content: flex-end !important;
-  margin-right: 10px !important; 
-  padding: 0;
+	justify-content: flex-end !important;
+	margin-right: 10px !important;
+	padding: 0;
 }
-
-
-
-
-
-  
